@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UnActivityAOtra</string>
+    <string name="btn1">Ir a la Playa</string>
+    <string name="btn2">Ir a la Nieve</string>
+    <string name="tv1">¿Mucho Frío?</string>
+    <string name="tv2">¿Mucha Arena?</string>
+</resources>
