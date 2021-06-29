@@ -1,6 +1,6 @@
 # Evidencia día 5 semana 8
 ## Calculadora 4 Botones
-![Captura](https://github.com/SebaFarias/DESARROLLO-DE-APLICACIONES-M-VILES-ANDROID-JAVA/blob/master/18-06-2021/Calculadora4Botones/app/src/main/java/com/example/calculadora4botones/MainActivity.java)
+![Captura](https://raw.githubusercontent.com/SebaFarias/DESARROLLO-DE-APLICACIONES-M-VILES-ANDROID-JAVA/master/18-06-2021/Captura.jpeg)
 ## Código
 [MainActivity de la Aplicación](https://github.com/SebaFarias/DESARROLLO-DE-APLICACIONES-M-VILES-ANDROID-JAVA/blob/master/18-06-2021/Calculadora4Botones/app/src/main/java/com/example/calculadora4botones/MainActivity.java)
 
