@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CalculadoraCheck</string>
+    <string name="sumar_name">Sumar</string>
+    <string name="et1">Ingrese el primer valor</string>
+    <string name="et2">Ingrese el segundo valor</string>
+    <string name="restar_name">Restar</string>
+    <string name="multiplicar_name">Multiplicar</string>
+    <string name="dividir_name">Dividir</string>
+    <string name="calcular_button">Calcular</string>
+    <string name="resultado_default">Resultado: </string>
+</resources>
