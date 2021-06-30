@@ -2,6 +2,7 @@
     <string name="app_name">CalculadoraSpinner</string>
     <string name="et1">Ingrese primer Número</string>
     <string name="et2">Ingrese segundo Número</string>
-    <string name="tv1">Resultado: </string>
-    <string name="button">Calcular</string>
+    <string name="tv1">Opera 2 valores! </string>
+    <string name="calcular_button">Calcular</string>
+    <string name="limpiar_button">Limpiar</string>
 </resources>

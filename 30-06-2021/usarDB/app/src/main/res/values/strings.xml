@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">usarDB</string>
+    <string name="titulo">Inventario Productos</string>
+    <string name="et_codigo">Ingrese Código del producto</string>
+    <string name="et_nombre">Ingrese Nombre del Producto</string>
+    <string name="et_precio">Ingrese Precio del producto</string>
+    <string name="label_Codigo">Código</string>
+    <string name="label_Nombre">Nombre</string>
+    <string name="label_precio">Precio</string>
+    <string name="crear_btn">Crear Producto</string>
+    <string name="buscar_btn">Buscar Producto</string>
+    <string name="modificar_btn">Modificar Producto</string>
+    <string name="eliminar_btn">Eliminar Producto</string>
+</resources>

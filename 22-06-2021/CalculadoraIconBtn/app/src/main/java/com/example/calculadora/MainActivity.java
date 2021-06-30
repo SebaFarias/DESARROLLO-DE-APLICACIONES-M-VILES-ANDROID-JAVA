@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
     }
     private int leer (EditText numero){
       try{
-        return Integer.parseInt(numero.getText.toString());
-      }cacth(Exception err){
+        return Integer.parseInt(numero.getText().toString());
+      }catch(Exception err){
         return 0;
       }
     }

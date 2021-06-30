@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/calculos_bg"
+    tools:context=".CalculadoraRadio">
+
+    <EditText
+        android:id="@+id/Radio_input1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="#80000000"
+        android:ems="10"
+        android:hint="@string/et1"
+        android:inputType="numberSigned"
+        android:shadowColor="@color/teal_700"
+        android:textColor="@color/design_default_color_secondary"
+        android:textColorHighlight="@color/purple_200"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/design_default_color_error"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Radio_input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="#80000000"
+        android:ems="10"
+        android:hint="@string/et2"
+        android:inputType="numberSigned"
+        android:shadowColor="@color/teal_700"
+        android:textColor="@color/design_default_color_secondary"
+        android:textColorHighlight="@color/purple_200"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/design_default_color_error"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Radio_input1" />
+
+    <TextView
+        android:id="@+id/Radio_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="#80000000"
+        android:text="@string/resultado_default"
+        android:textColor="@color/design_default_color_secondary"
+        android:textColorHighlight="@color/purple_200"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="331dp"
+        android:layout_height="192dp"
+        app:layout_constraintBottom_toTopOf="@+id/Radio_resultado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Radio_input2">
+
+        <RadioButton
+            android:id="@+id/sumaRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B3000000"
+            android:shadowColor="@color/teal_700"
+            android:text="@string/sumar_button"
+            android:textColor="@color/design_default_color_secondary"
+            android:textColorHighlight="@color/design_default_color_error" />
+
+        <RadioButton
+            android:id="@+id/restaRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B3000000"
+            android:shadowColor="@color/teal_700"
+            android:text="@string/restar_button"
+            android:textColor="@color/design_default_color_secondary"
+            android:textColorHighlight="@color/design_default_color_error" />
+
+        <RadioButton
+            android:id="@+id/multiRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B3000000"
+            android:shadowColor="@color/teal_700"
+            android:text="@string/multi_button"
+            android:textColor="@color/design_default_color_secondary"
+            android:textColorHighlight="@color/design_default_color_error" />
+
+        <RadioButton
+            android:id="@+id/divideRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B3000000"
+            android:shadowColor="@color/teal_700"
+            android:text="@string/divi_button"
+            android:textColor="@color/design_default_color_secondary"
+            android:textColorHighlight="@color/design_default_color_error" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Radio_calcularBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calcular"
+        android:text="@string/calcular_button"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/teal_700"
+        app:layout_constraintBottom_toTopOf="@+id/Radio_resultado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Spinner_limpiarBtn"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <Button
+        android:id="@+id/Spinner_limpiarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="volver"
+        android:text="@string/volver_button"
+        android:textColor="@color/teal_200"
+        app:backgroundTint="@color/dark_BG"
+        app:layout_constraintBottom_toTopOf="@+id/Radio_resultado"
+        app:layout_constraintEnd_toStartOf="@+id/Radio_calcularBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+</androidx.constraintlayout.widget.ConstraintLayout>

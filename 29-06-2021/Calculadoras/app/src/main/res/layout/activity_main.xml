@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/app_name"
+        android:textColor="#FF5722"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1">
+
+        <Button
+            android:id="@+id/calcCuatroBotones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="simple"
+            android:text="@string/calc4Btns_btn"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:backgroundTint="@color/btn_BG" />
+
+        <Button
+            android:id="@+id/calcImageBtns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="imageBtns"
+            android:text="@string/calcIconBtn_btn"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:backgroundTint="@color/btn_BG" />
+
+        <Button
+            android:id="@+id/CalcCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkBoxes"
+            android:text="@string/calcCheck_btn"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:backgroundTint="@color/btn_BG" />
+
+        <Button
+            android:id="@+id/calcRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radioBtns"
+            android:text="@string/calcRadio_btn"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:backgroundTint="@color/btn_BG" />
+
+        <Button
+            android:id="@+id/calcSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="spinner"
+            android:text="@string/calcSpinner_btn"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:backgroundTint="@color/btn_BG" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.concurrent.ExecutionException;
+
 public class MainActivity extends AppCompatActivity {
 
     private Spinner sp1;
@@ -29,11 +31,23 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter<String> adaptador = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item,operaciones);
         sp1.setAdapter(adaptador);
     }
+    private int leer(EditText numero){
+        try{
+            return Integer.parseInt(numero.getText().toString());
+        }catch(Exception err){
+            return 0;
+        }
+    }
+    public void limpiar(View V){
+        edit1.setText(null);
+        edit2.setText(null);
+        tv1.setText(getString(R.string.tv1));
+    }
     public void operar( View V ){
 
         String op = sp1.getSelectedItem().toString();
-        int num1 = Integer.parseInt(edit1.getText().toString());
-        int num2 = Integer.parseInt(edit2.getText().toString());
+        int num1 = leer(edit1);
+        int num2 = leer(edit2);
 
         if(op == "Sumar"){
             int sum = num1 + num2;
@@ -48,9 +62,10 @@ public class MainActivity extends AppCompatActivity {
             if(num2 == 0){
                 Toast.makeText(this,"No se puede dividir por 0", Toast.LENGTH_LONG).show();
             }else{
-                int divi = num1 / num2;
+                double divi = ((double) num1) / num2;
                 tv1.setText("La división es: " + divi);
             }
         }
     }
+
 }

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/calculos_bg"
+    tools:context=".CalculadoraIconBtn">
+
+    <Button
+        android:id="@+id/Icon_volverBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="volver"
+        android:text="@string/volver_button"
+        app:backgroundTint="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Icon_et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#80000000"
+        android:ems="10"
+        android:hint="@string/et1"
+        android:inputType="numberSigned"
+        android:shadowColor="@color/teal_700"
+        android:textColor="@color/design_default_color_secondary"
+        android:textColorHighlight="@color/purple_200"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/design_default_color_error"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Icon_volverBtn" />
+
+    <EditText
+        android:id="@+id/Icon_et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="#80000000"
+        android:ems="10"
+        android:hint="@string/et2"
+        android:inputType="numberSigned"
+        android:shadowColor="@color/teal_700"
+        android:textColor="@color/design_default_color_secondary"
+        android:textColorHighlight="@color/purple_200"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/design_default_color_error"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Icon_et1" />
+
+    <TextView
+        android:id="@+id/Icon_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#80000000"
+        android:text="@string/resultado_default"
+        android:textColor="@color/design_default_color_secondary"
+        android:textColorHighlight="@color/purple_200"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/Icon_resultado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Icon_et2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/Icon_sumaBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/dark_BG"
+                android:onClick="sumar"
+                app:srcCompat="@drawable/mas" />
+
+            <ImageButton
+                android:id="@+id/Icon_restarBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/dark_BG"
+                android:onClick="restar"
+                app:srcCompat="@drawable/menos" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/Icon_multiBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/dark_BG"
+                android:onClick="multiplicar"
+                app:srcCompat="@drawable/times" />
+
+            <ImageButton
+                android:id="@+id/Icon_diviBtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/dark_BG"
+                android:onClick="dividir"
+                app:srcCompat="@drawable/divide" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

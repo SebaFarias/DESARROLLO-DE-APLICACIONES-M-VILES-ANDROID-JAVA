@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">saludo2Activityes</string>
+    <string name="pregunta">¿Cuál es su nombre?</string>
+    <string name="label_nombre">Nombre:</string>
+    <string name="et_nombre">Ingrese su nombre</string>
+    <string name="btn_saludar">Enviar</string>
+    <string name="btn_volver">Volver</string>
+    <string name="saludo">Saludos</string>
+</resources>

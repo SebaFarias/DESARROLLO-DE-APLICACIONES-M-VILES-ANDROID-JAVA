@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/esfinge_bg"
+    tools:context=".CalculadoraCheckbox">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Check_et1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:hint="@string/et1"
+                android:inputType="numberSigned"
+                android:textColorHint="@color/white_hint" />
+
+            <EditText
+                android:id="@+id/Check_et2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/et2"
+                android:inputType="numberSigned"
+                android:textColorHint="@color/white_hint" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@color/light_BG"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/sumaCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sumar_button"
+                android:textColor="@color/black"
+                android:textColorLink="@color/naranjo"
+                app:buttonTint="@color/naranjo" />
+
+            <TextView
+                android:id="@+id/sumaResultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/resultado_default"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/light_BG"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/restaCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/restar_button"
+                android:textColor="@color/black"
+                app:buttonTint="@color/naranjo" />
+
+            <TextView
+                android:id="@+id/restaResultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/resultado_default"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/light_BG"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/multiCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:text="@string/multi_button"
+                android:textColor="@color/black"
+                app:buttonTint="@color/naranjo" />
+
+            <TextView
+                android:id="@+id/multiResultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/resultado_default"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/light_BG"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/diviCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/divi_button"
+                android:textColor="@color/black"
+                app:buttonTint="@color/naranjo" />
+
+            <TextView
+                android:id="@+id/diviResultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/resultado_default"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/calcularButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="calcular"
+                android:text="@string/calcular_button"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/orange_button" />
+
+            <Button
+                android:id="@+id/Check_volverBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:onClick="volver"
+                android:text="@string/volver_button"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/dark_BG" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
