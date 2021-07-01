@@ -120,6 +120,7 @@
             android:id="@+id/modificarBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="modificar"
             android:text="@string/modificar_btn" />
 
         <Button
@@ -127,6 +128,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
+            android:onClick="eliminar"
             android:text="@string/eliminar_btn" />
 
     </LinearLayout>

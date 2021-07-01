@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/layout_bg"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <Button
+            android:id="@+id/crearBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="crear"
+            android:text="@string/crear_title"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/teal_700" />
+
+        <Button
+            android:id="@+id/buscarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buscar"
+            android:text="@string/buscar_title"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/teal_700" />
+
+        <Button
+            android:id="@+id/modificarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="modificar"
+            android:text="@string/modificar_title"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/teal_700" />
+
+        <Button
+            android:id="@+id/eliminarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="eliminar"
+            android:text="@string/borrar_title"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/teal_700" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

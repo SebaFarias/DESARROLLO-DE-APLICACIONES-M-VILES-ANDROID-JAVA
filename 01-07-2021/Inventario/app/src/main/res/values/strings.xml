@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Inventario</string>
+    <string name="crear_title">Nuevo Producto</string>
+    <string name="buscar_title">Buscar Producto</string>
+    <string name="modificar_title">Modificar Producto</string>
+    <string name="borrar_title">Eliminar Producto</string>
+    <string name="volver_btn">Volver</string>
+    <string name="ver_btn">Ver</string>
+    <string name="crear_btn">Crear</string>
+    <string name="buscar_btn">Buscar</string>
+    <string name="modificar_btn">Modificar</string>
+    <string name="eliminar_btn">Eliminar</string>
+    <string name="codigo_label">Código:</string>
+    <string name="nombre_label">Nombre:</string>
+    <string name="precio_label">Precio:</string>
+    <string name="codigo_hint">Ingrese código del producto</string>
+    <string name="nombre_hint">Ingrese nombre del producto</string>
+    <string name="precio_hint">Ingrese precio del producto</string>
+    <string name="campos_incompletos">Debes rellenar todos los campos</string>
+    <string name="missing_code">Debes indicar el código de producto</string>
+    <string name="not_found">No se ha encontrado el producto</string>
+    <string name="creado">Producto agregado Correctamente</string>
+    <string name="modificado">Producto modificado correctamente</string>
+    <string name="eliminado">Producto eliminado correctamente</string>
+</resources>

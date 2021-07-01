@@ -77,4 +77,41 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Ingrese un código de Producto para buscar", Toast.LENGTH_LONG).show();
         }
     }
+    public void modificar( View V){
+
+        AdminDB admin = new AdminDB( this, "Productos", null, 1);
+        SQLiteDatabase base = admin.getWritableDatabase();
+
+        String codigoProducto = etCodigo.getText().toString();
+        String nombreProducto = etNombre.getText().toString();
+        String precioProducto = etPrecio.getText().toString();
+
+        if(codigoProducto.isEmpty() || nombreProducto.isEmpty() || precioProducto.isEmpty()){
+            Toast.makeText(this, "Debes llenar todos los campos", Toast.LENGTH_LONG).show();
+        }else{
+            ContentValues actualizado = new ContentValues();
+            actualizado.put("codigo",codigoProducto);
+            actualizado.put("nombre",nombreProducto);
+            actualizado.put("precio",precioProducto);
+            base.update("producto",actualizado,"codigo =" + codigoProducto, null);
+            base.close();
+            Toast.makeText(this,"Produco modificado correctamente", Toast.LENGTH_LONG).show();
+        }
+    }
+    public void eliminar( View V){
+
+        AdminDB admin = new AdminDB( this, "Productos", null, 1);
+        SQLiteDatabase base = admin.getWritableDatabase();
+
+        String codigoProducto = etCodigo.getText().toString();
+        if(codigoProducto.isEmpty()){
+            Toast.makeText(this, "Ingrese el código del producto que quiere eliminar", Toast.LENGTH_LONG).show();
+        }else{
+            base.delete("producto","codigo="+codigoProducto,null);
+            base.close();
+            limpiar(V);
+            Toast.makeText(this, "Producto eliminado correctamente", Toast.LENGTH_LONG).show();
+        }
+
+    }
 }
