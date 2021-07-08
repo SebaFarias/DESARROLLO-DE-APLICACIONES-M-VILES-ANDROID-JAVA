@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GatoSebas</string>
+    <string name="title">Gato</string>
+    <string name="status_default">Turno de X</string>
+    <string name="reiniciar_btn">Reiniciar</string>
+</resources>
