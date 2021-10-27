@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0532cc77-67af-4930-a205-c38bfd53c3e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Buscar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Crear.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/ED4S10.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Eliminar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/androidTest/java/com/example/inventario/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/java/com/example/inventario/AdminBD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/java/com/example/inventario/Buscar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/java/com/example/inventario/Crear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/java/com/example/inventario/Eliminar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/java/com/example/inventario/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/java/com/example/inventario/Modificar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/java/com/example/inventario/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/drawable/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/drawable/layout_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/drawable/search_btn_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/layout/activity_buscar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/layout/activity_crear.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/layout/activity_eliminar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/layout/activity_modificar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/app/src/test/java/com/example/inventario/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Inventario/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Main.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Modificar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01-07-2021/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-07-2021/Captura.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02-07-2021/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/androidTest/java/com/example/inventariospinner/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/java/com/example/inventariospinner/Buscar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/java/com/example/inventariospinner/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/layout/activity_buscar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/app/src/test/java/com/example/inventariospinner/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-07-2021/InventarioSpinner/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/androidTest/java/com/example/menuoverflow/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/java/com/example/menuoverflow/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/menu/menuoverflow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/app/src/test/java/com/example/menuoverflow/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-07-2021/MenuOverflow/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/androidTest/java/com/example/camara/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/java/com/example/camara/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/app/src/test/java/com/example/camara/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-07-2021/Camara/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12-07-2021/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/androidTest/java/com/example/calculadora4botones/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/java/com/example/calculadora4botones/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/drawable-v24/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/app/src/test/java/com/example/calculadora4botones/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Calculadora4Botones/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Captura.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/ED5S8.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18-06-2021/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/androidTest/java/com/example/calculadora/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/java/com/example/calculadora/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/drawable-v24/calculos_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/drawable-v24/divide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/drawable-v24/mas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/drawable-v24/menos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/drawable-v24/times.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/app/src/test/java/com/example/calculadora/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/CalculadoraIconBtn/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/Captura.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/ED2S9.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22-06-2021/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/androidTest/java/com/example/calculadoracheck/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/java/com/example/calculadoracheck/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/drawable-v24/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/app/src/test/java/com/example/calculadoracheck/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraCheck/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/androidTest/java/com/example/calculadora/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/java/com/example/calculadora/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/drawable-v24/calculos_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/drawable-v24/divide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/drawable-v24/mas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/drawable-v24/menos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/drawable-v24/times.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/app/src/test/java/com/example/calculadora/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/CalculadoraRadio/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/ED3S9.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23-06-2021/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/androidTest/java/com/example/calculadoraspinner/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/java/com/example/calculadoraspinner/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/drawable-v24/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/app/src/test/java/com/example/calculadoraspinner/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CalculadoraSpinner/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CapturaSpinner.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/CapturaSwitch.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/ED4S9.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/androidTest/java/com/example/controlswitch/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/java/com/example/controlswitch/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/app/src/test/java/com/example/controlswitch/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../24-06-2021/controlSwitch/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/Activity1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/Activity2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/ED5S9.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/androidTest/java/com/example/unactivityaotra/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/java/com/example/unactivityaotra/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/java/com/example/unactivityaotra/MainActivity3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/drawable-v24/nieve.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/drawable-v24/playa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/layout/activity_main3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/app/src/test/java/com/example/unactivityaotra/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../25-06-2021/UnActivityAOtra/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/androidTest/java/com/example/calculadoras/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/java/com/example/calculadoras/Calculadora4Botones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/java/com/example/calculadoras/CalculadoraCheckbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/java/com/example/calculadoras/CalculadoraIconBtn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/java/com/example/calculadoras/CalculadoraRadio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/java/com/example/calculadoras/CalculadoraSpinner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/java/com/example/calculadoras/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/drawable/divide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/drawable/mas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/drawable/menos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/drawable/times.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/layout/activity_calculadora4_botones.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/layout/activity_calculadora_checkbox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/layout/activity_calculadora_icon_btn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/layout/activity_calculadora_radio.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/layout/activity_calculadora_spinner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-hdpi/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-hdpi/background4btns.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-hdpi/calculos_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-hdpi/esfinge_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-hdpi/stars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/app/src/test/java/com/example/calculadoras/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/ED2S10.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Saludo1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/Saludo2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/androidTest/java/com/example/saludo2activityes/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/java/com/example/saludo2activityes/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/java/com/example/saludo2activityes/MainActivity2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-xhdpi/police.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-xhdpi/saludo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/app/src/test/java/com/example/saludo2activityes/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29-06-2021/saludo2Activityes/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/ED3S10.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/captura.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/androidTest/java/com/example/usardb/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/java/com/example/usardb/AdminDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/java/com/example/usardb/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/drawable-v24/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/app/src/test/java/com/example/usardb/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-06-2021/usarDB/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\s.farias\.android\avd\Pixel_4_XL_API_28.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="206PxhC0c6iA8vbpg3lwEecHOSr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\s.farias\DESARROLLO-DE-APLICACIONES-M-VILES-ANDROID-JAVA\sebaGato\app\src\main\res\drawable-v24" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="sebaGato.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0532cc77-67af-4930-a205-c38bfd53c3e8" name="Default Changelist" comment="" />
+      <created>1635362311973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635362311973</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1635362919773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1635362919773" />
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog" timestamp="1635362827815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1635362827815" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1635362694833">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1635362694833" />
+  </component>
+</project>

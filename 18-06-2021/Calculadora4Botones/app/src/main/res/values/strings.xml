@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculadora4Botones</string>
+    <string name="limpiar_button">Limpiar</string>
+    <string name="sumar_button">Sumar</string>
+    <string name="restar_button">Restar</string>
+    <string name="multi_button">Multiplicar</string>
+    <string name="divi_button">Dividir</string>
+    <string name="resultado_default">Opera 2 valores!</string>
+    <string name="et1">Ingrese primer valor</string>
+    <string name="et2">Ingrese segundo valor</string>
+</resources>

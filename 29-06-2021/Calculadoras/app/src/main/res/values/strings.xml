@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Calculadoras</string>
+    <string name="calc4Btns_btn">Simple</string>
+    <string name="calcRadio_btn">Radio Buttons</string>
+    <string name="calcCheck_btn">Checkboxes</string>
+    <string name="calcIconBtn_btn">Image Buttons</string>
+    <string name="calcSpinner_btn">Spinner</string>
+    <string name="resultado_default">Opera 2 valores!</string>
+    <string name="et1">Ingresa el primer valor</string>
+    <string name="et2">Ingresa el segundo valor</string>
+    <string name="calcular_button">Calcular</string>
+    <string name="volver_button">Volver</string>
+    <string name="limpiar_button">Limpiar</string>
+    <string name="sumar_button">Sumar</string>
+    <string name="restar_button">Restar</string>
+    <string name="multi_button">Multiplicar</string>
+    <string name="divi_button">Dividir</string>
+</resources>
