@@ -9,18 +9,18 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0532cc77-67af-4930-a205-c38bfd53c3e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../02-07-2021/MyApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-07-2021/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../02-07-2021/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../29-06-2021/Calculadoras/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../29-06-2021/Calculadoras/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../29-06-2021/Calculadoras/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sebagato/model/Tablero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sebagato/model/Turno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/circulo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/cruz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/vacio.png" beforeDir="false" />
+    <list default="true" id="7d9a7319-d1db-49a3-aac2-d6e2b7560b58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../29-06-2021/Calculadoras/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../29-06-2021/Calculadoras/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../29-06-2021/Calculadoras/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../29-06-2021/Calculadoras/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sebaGato/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sebaGato/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sebaGato/app/src/main/java/com/example/sebagato/model/Tablero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sebaGato/app/src/main/java/com/example/sebagato/model/Turno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sebaGato/app/src/main/res/drawable-v24/circulo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sebaGato/app/src/main/res/drawable-v24/cruz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sebaGato/app/src/main/res/drawable-v24/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sebaGato/app/src/main/res/drawable-v24/vacio.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +32,10 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="resourceFile" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="206PxhC0c6iA8vbpg3lwEecHOSr" />
+  <component name="ProjectId" id="206MBydgbENGmsIwokHaOXGBqR2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
@@ -52,14 +44,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\s.farias\DESARROLLO-DE-APLICACIONES-M-VILES-ANDROID-JAVA\sebaGato\app\src\main\res\drawable-v24" />
-    </key>
+    <property name="last_opened_file_path" value="$USER_HOME$/DESARROLLO-DE-APLICACIONES-MOVILES-ANDROID-KOTLIN/PizzeriaJuanito" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -68,7 +54,7 @@
       <method v="2" />
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="sebaGato.app" />
+      <module name="GatoSebas.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -127,26 +113,35 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0532cc77-67af-4930-a205-c38bfd53c3e8" name="Default Changelist" comment="" />
-      <created>1635362311973</created>
+      <changelist id="7d9a7319-d1db-49a3-aac2-d6e2b7560b58" name="Default Changelist" comment="" />
+      <created>1635360452777</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1635362311973</updated>
+      <updated>1635360452777</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1635362919773">
+    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1635432705969">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1635363717603" />
+    <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1635432705969" />
+    <state width="1323" height="401" key="GridCell.Tab.0.bottom" timestamp="1635362133683">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1635362919773" />
-    <state x="263" y="119" key="AndroidCreateResourceFileDialog" timestamp="1635362827815">
+    <state width="1323" height="401" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1635362133683" />
+    <state width="1323" height="401" key="GridCell.Tab.0.center" timestamp="1635362133683">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1635362827815" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1635362694833">
+    <state width="1323" height="401" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1635362133683" />
+    <state width="1323" height="401" key="GridCell.Tab.0.left" timestamp="1635362133683">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1635362694833" />
+    <state width="1323" height="401" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1635362133683" />
+    <state width="1323" height="401" key="GridCell.Tab.0.right" timestamp="1635362133683">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="401" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1635362133683" />
   </component>
 </project>
