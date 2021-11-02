@@ -45,9 +45,6 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(intent, 1);
         //}
     }
-    public void takePhoto(){
-
-    }
     public void saveTempBitmap(Bitmap bitmap) {
 
         if (isExternalStorageWritable()) {
