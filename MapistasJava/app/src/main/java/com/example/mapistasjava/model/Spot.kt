@@ -1,19 +1,15 @@
-package com.example.mapistasjava.model;
+package com.example.mapistasjava.model
 
-import java.util.ArrayList;
+import java.util.*
 
-public class Spot {
-
-    private int id;
-    private int authorId;
-    private String nombre;
-    private String authorDisplayName;
-    private String descripcion;
-    private ArrayList<Coment> comentarios;
-    private ArrayList<Reaction> reacciones;
-    private double lat;
-    private double lon;
-
-
-
+class Spot {
+    private val id = 0
+    private val authorId = 0
+    private val nombre: String? = null
+    private val authorDisplayName: String? = null
+    private val descripcion: String? = null
+    private val comentarios: ArrayList<Coment>? = null
+    private val reacciones: ArrayList<Reaction>? = null
+    private val lat = 0.0
+    private val lon = 0.0
 }
