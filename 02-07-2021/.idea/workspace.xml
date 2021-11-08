@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d105128-fd30-458f-ac7c-cd7b4bce0359" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="SebaFarias &lt;sebastian.fariasb@usach.cl&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="206SogqD8I7GfaRRCvtNvuOOdwp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../06-07-2021/MenuOverflow" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d105128-fd30-458f-ac7c-cd7b4bce0359" name="Default Changelist" comment="" />
+      <created>1635363721235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635363721235</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/SebaFarias/DESARROLLO-DE-APLICACIONES-M-VILES-ANDROID-JAVA&#10;&#10;# Conflicts:&#10;#&#9;Readme.md">
+      <created>1635638228335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635638228335</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Evidencia Dia 5 Semana 10">
+      <created>1635638525335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635638525335</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/SebaFarias/DESARROLLO-DE-APLICACIONES-M-VILES-ANDROID-JAVA&#10;&#10;# Conflicts:&#10;#&#9;Readme.md" />
+    <MESSAGE value="Evidencia Dia 5 Semana 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Evidencia Dia 5 Semana 10" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="713" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1635634625373">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="713" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1635634625373" />
+    <state x="378" y="114" key="CommitChangelistDialog2" timestamp="1635638524850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="115" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1635364666605" />
+    <state x="378" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1635638524850" />
+    <state width="652" height="442" key="Diff.GoToChangePopup" timestamp="1635364483507">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="652" height="442" key="Diff.GoToChangePopup/0.0.1366.728@0.0.1366.728" timestamp="1635364483507" />
+    <state x="0" y="0" width="1366" height="728" key="DiffContextDialog" timestamp="1635634672205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1366" height="728" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1635364666586" />
+    <state x="0" y="0" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1635634672205" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1635791996765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1635791996765" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1635364437049">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1635364437049" />
+    <state x="321" y="125" key="MultipleFileMergeDialog" timestamp="1635364437061">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1635364437061" />
+    <state x="387" y="139" key="Vcs.Push.Dialog.v2" timestamp="1635644822004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1635364447549" />
+    <state x="387" y="139" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1635644822004" />
+    <state x="703" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635645327403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1635364385391" />
+    <state x="703" y="397" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1635645327403" />
+  </component>
+</project>

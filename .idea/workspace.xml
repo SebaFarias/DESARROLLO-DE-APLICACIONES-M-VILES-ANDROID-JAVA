@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5c99975-1e34-4eee-8fad-8978dbf04947" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/02-07-2021/MyApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-07-2021/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/02-07-2021/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/29-06-2021/Calculadoras/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/29-06-2021/Calculadoras/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/29-06-2021/Calculadoras/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/29-06-2021/Calculadoras/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebaGato/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sebaGato/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebaGato/app/src/main/java/com/example/sebagato/model/Tablero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebaGato/app/src/main/java/com/example/sebagato/model/Turno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebaGato/app/src/main/res/drawable-v24/circulo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebaGato/app/src/main/res/drawable-v24/cruz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebaGato/app/src/main/res/drawable-v24/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sebaGato/app/src/main/res/drawable-v24/vacio.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="206PgK3WG6YdtDpm28nU1niwUhJ" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5c99975-1e34-4eee-8fad-8978dbf04947" name="Default Changelist" comment="" />
+      <created>1635362174467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635362174467</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1635362288226">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1635362288226" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1635362208577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1635362208577" />
+  </component>
+</project>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MapistasJava</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoieGVvbnJpZGVyIiwiYSI6ImNrZmkydTBnNzAzd24yd3FiNXRzb21laGgifQ.owsPKYbZ0PT_6fgOqYQ_fg</string>
+    <string name="btn_agregar_spot">Nuevo Spot</string>
+    <string name="lng_default">-70.6467607</string>
+    <string name="lat_default">-33.445226</string>
+</resources>
